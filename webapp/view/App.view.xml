@@ -7,38 +7,33 @@
      <SplitApp id="app" mode="PopoverMode" >
         
     </SplitApp>
-		<!-- <Button id="_IDGenButton1" width="50%" text="Content 1">
-			<layoutData>
-				<l:SplitterLayoutData id="_IDGenSplitterLayoutData1" size="300px" />
-                
-			</layoutData>
-		</Button>  -->
+	
          <Table id="_IDGenTable1" >
          <layoutData>
-				<l:SplitterLayoutData id="_IDGenSplitterLayoutData1" size="300px" />
+				<l:SplitterLayoutData id="_IDGenSplitterLayoutData1" size="300px" resizable="false"  />
                 
 			</layoutData>
             <headerToolbar>
 					<OverflowToolbar id="otbSubheader">
-						<Title text="Past Nomination" level="H2" />
-						<ToolbarSpacer />
+						<Title id="_IDGenTitle1" text="Past Nomination" level="H2" />
+						<ToolbarSpacer id="_IDGenToolbarSpacer1" />
 					
 					</OverflowToolbar>
 				</headerToolbar>
          <columns>
-         <Column >
-         <Text text="Id"></Text>
+         <Column id="_IDGenColumn1" >
+         <Text id="_IDGenText1" text="Id"></Text>
          </Column>
-          <Column >
-         <Text text="Type"></Text>
+          <Column id="_IDGenColumn2" >
+         <Text id="_IDGenText2" text="Type"></Text>
          </Column>
          
          </columns>
          <items>
-         <ColumnListItem >
+         <ColumnListItem id="_IDGenColumnListItem1" >
            <cells>
-           <Text text="1"></Text>
-           <Text text="Permanaent"></Text>
+           <Text id="_IDGenText3" text="1"></Text>
+           <Text id="_IDGenText4" text="Permanaent"></Text>
            </cells>
          
          </ColumnListItem>

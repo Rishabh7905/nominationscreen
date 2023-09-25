@@ -1,23 +1,150 @@
-<mvc:View controllerName="fiorilikeapp.controller.View2"
+<mvc:View xmlns:form="sap.ui.layout.form" controllerName="fiorilikeapp.controller.View2"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m"
+    	xmlns:core="sap.ui.core"
     >
-    <Page id="page" title="detail Page" navButtonPress="onBack" showNavButton="true">
-           <Panel id="_IDGenPanel1" >
+    <Page id="page" title="Detail Page" titleAlignment="Center" navButtonPress="onBack" showNavButton="true">
+           <!-- <Panel id="_IDGenPanel1" >
            <Image id="_IDGenImage1" src="{image}" width="20%" height="30%"></Image>
            <Toolbar id="_IDGenToolbar2" >
            <ToolbarSpacer id="_IDGenToolbarSpacer2" ></ToolbarSpacer>
            <Text id="_IDGenText2" text="{taste}"></Text>
            <Text id="_IDGenText1" text="{name}"></Text>
            </Toolbar>
-           </Panel>
+           </Panel> -->
+          <!-- <form:SimpleForm id="_IDGenSimpleForm1" >
+          <ObjectHeader id="_IDGenObjectHeader1" title="Oil Refinieries Limited (00400221)" ></ObjectHeader>
+          <Label  id="_IDGenLabel1" text="Description" width="200px" textAlign="Center"></ Label>
+          <Text id="_IDGenText1" text="ORL FIRM" textAlign="Center"/>
+          <Label id="_IDGenLabel2" text="maximum Daily contractula capacity" width="200px" textAlign="Center"></Label>
+          <Text id="_IDGenText2" text="1200.000" textAlign="Center"></Text>
+          <Label id="_IDGenLabel3" text="Contract Type"></Label>
+          <Text id="_IDGenText3" text="ENRG Firm Contract" textAlign="Center"></Text>
+           <Label id="_IDGenLabel4" text="Minimum Daily Contract Quantity" width="200px"></Label>
+          <Text id="_IDGenText4" text="900.00"></Text>
+          <Label id="_IDGenLabel5" text='Unit of Measurement (UoM)' width="200px"></Label>
+          <Text id="_IDGenText5" text="MBT" textAlign="Center"></Text>
 
-           <footer>
-    <Toolbar id="_IDGenToolbar1" >
+         
+          </form:SimpleForm> -->
+          <form:SimpleForm id="SimpleFormDisplay354wideDual"
+			editable="false"
+			layout="ResponsiveGridLayout"
+			labelSpanXL="5"
+			labelSpanL="3"
+			labelSpanM="5"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="4"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false"
+            class="formClass"
+             >
+            <form:content >
+			
+				<core:Title id="_IDGenTitle1" text="Oil Refinieries Limited (00400221)" emphasized="true" />
+				<Label id="_IDGenLabel1" text="Description" textAlign="Begin"/>
+				<Text id="nameText" text="ORL Firm" />
+				<Label id="_IDGenLabel2" text="Maximum Daily contractual capacity" />
+				<Text id="_IDGenText1" text="1200.00" />
+				<Label id="_IDGenLabel3" text="Contract Type" />
+				<Text id="_IDGenText2" text="ENRG Firm Contract" />
+				<Label id="_IDGenLabel4" text="Minimum Daily Contract Quantity" />
+				<Text id="countryText" text="900.00" />
+                <Label id="_IDGenLabel5" text="Unit of Measurement (UoM)" />
+				<Text id="countryText1" text="MBT" />
+				
+			
+            </form:content>
+		</form:SimpleForm>
+        <Table id="_IDGenTable1"  >
+         <headerToolbar>
+             <OverflowToolbar id="_IDGenOverflowToolbar1" >
+              <Title id="_IDGenTitle2" text="Nominate Quantity" level="H2"></Title>
+              <ToolbarSpacer id="_IDGenToolbarSpacer2" ></ToolbarSpacer>
+              <Button id="_IDGenButton3" text="Help" icon="sap-icon://hint" ></Button>
+             </OverflowToolbar>
+        </headerToolbar>
+        
+         <columns>
+         
+          <Column id="_IDGenColumn1" >
+          <Text id="_IDGenText3" text="Nominate Daily Quantity(DNQ)"></Text>
+          </Column>
+          <Column id="_IDGenColumn2" >
+          <Text id="_IDGenText4" text="UoM"></Text>
+          </Column>
+          <Column id="_IDGenColumn3" >
+          <Text id="_IDGenText5" text="Quantity DNQ"></Text>
+          </Column>
+          
+          </columns>
+          <ColumnListItem id="_IDGenColumnListItem1" >
+           <cells >
+          	<DatePicker id="dt" value="{
+				path: '/date',
+				type: 'sap.ui.model.type.Date',
+				formatOptions: {
+					source: {pattern: 'yyyy-MM-dd'}
+				}}" />
+         	<TimePicker id="_IDGenTimePicker1"  value="{
+				path:'/time',
+				type: 'sap.ui.model.type.Time'}" />
+           <Text id="_IDGenText6" text=""></Text>
+           <Text id="_IDGenText7" text=""></Text>
+           </cells>
+          </ColumnListItem>
+        </Table>
+        <Table id="_IDGenTable2"  >
+         <headerToolbar>
+             <OverflowToolbar id="_IDGenOverflowToolbar2" >
+              <Title id="_IDGenTitle3" text="Item Detail" level="H2"></Title>
+              <ToolbarSpacer id="_IDGenToolbarSpacer3" ></ToolbarSpacer>
+              <Button id="_IDGenButton4" text="Help" icon="sap-icon://hint" ></Button>
+             </OverflowToolbar>
+        </headerToolbar>
+        
+         <columns>
+         
+          <Column id="_IDGenColumn4" >
+          <Text id="_IDGenText8" text="Gas Day"></Text>
+          </Column>
+          <Column id="_IDGenColumn5" >
+          <Text id="_IDGenText9" text="Time"></Text>
+          </Column>
+          <Column id="_IDGenColumn6" >
+          <Text id="_IDGenText10" text="Approved DNQ"></Text>
+          </Column>
+          <Column id="_IDGenColumn7" >
+          <Text id="_IDGenText11" text="UoM"></Text>
+          </Column>
+          </columns>
+          <ColumnListItem id="_IDGenColumnListItem2" >
+           <cells >
+          	<Input id="_IDGenInput1" value=""></Input>
+         	<Text id="_IDGenText12" text="MBT"/>
+            	<Select id="country" selectedKey="{Country}">
+					<items>
+						<core:Item id="_IDGenItem1" text="No Event" enabled="false"/>
+						<core:Item id="_IDGenItem2" text="hsaha" enabled="false"/>
+						
+					</items>
+				</Select>
+           
+           </cells>
+          </ColumnListItem>
+        </Table>
+           <footer >
+        <Toolbar id="_IDGenToolbar1" >
         <ToolbarSpacer id="_IDGenToolbarSpacer1" >  </ToolbarSpacer>
-            <Button id="_IDGenButton1" text="Order" type="Emphasized"></Button>
-            <Button id="_IDGenButton2" text="Cancel" type="Reject"></Button>  
-    </Toolbar>
+            <Button id="_IDGenButton1" text="Create Nomination" type="Emphasized"></Button>
+            <!-- <Button id="_IDGenButton2" text="Cancel" type="Reject"></Button>   -->
+        </Toolbar>
    </footer>
     </Page>
 </mvc:View>

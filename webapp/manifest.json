@@ -85,14 +85,14 @@
           "name": "first",
           "pattern": "",
           "target": [
-            "TgView1","TgView2"
+            "TgView1","modi"
           ]
         },
         {
           "name": "second",
           "pattern": "fruits/{fruitId}",
           "target": [
-            "TgView1","modi"
+            "TgView1","TgView2"
           ]
         }
       ],
