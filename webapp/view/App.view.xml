@@ -1,0 +1,62 @@
+<mvc:View controllerName="fiorilikeapp.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout">
+    <l:Splitter id="_IDGenSplitter1" height="100vh" width="100%">
+     <SplitApp id="app" mode="PopoverMode" >
+        
+    </SplitApp>
+		<!-- <Button id="_IDGenButton1" width="50%" text="Content 1">
+			<layoutData>
+				<l:SplitterLayoutData id="_IDGenSplitterLayoutData1" size="300px" />
+                
+			</layoutData>
+		</Button>  -->
+         <Table id="_IDGenTable1" >
+         <layoutData>
+				<l:SplitterLayoutData id="_IDGenSplitterLayoutData1" size="300px" />
+                
+			</layoutData>
+            <headerToolbar>
+					<OverflowToolbar id="otbSubheader">
+						<Title text="Past Nomination" level="H2" />
+						<ToolbarSpacer />
+					
+					</OverflowToolbar>
+				</headerToolbar>
+         <columns>
+         <Column >
+         <Text text="Id"></Text>
+         </Column>
+          <Column >
+         <Text text="Type"></Text>
+         </Column>
+         
+         </columns>
+         <items>
+         <ColumnListItem >
+           <cells>
+           <Text text="1"></Text>
+           <Text text="Permanaent"></Text>
+           </cells>
+         
+         </ColumnListItem>
+         </items>
+        
+        
+        </Table>
+      
+		<!-- <Button id="_IDGenButton2" width="100%" text="Content 2">
+			<layoutData>
+				<l:SplitterLayoutData id="_IDGenSplitterLayoutData2" size="auto" >
+                </l:SplitterLayoutData>
+			</layoutData>
+		</Button> -->
+		
+       
+	</l:Splitter>
+    <!-- <SplitApp id="app1" mode="PopoverMode" >
+        
+    </SplitApp> -->
+</mvc:View>

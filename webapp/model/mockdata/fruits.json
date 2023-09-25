@@ -1,0 +1,115 @@
+{
+    "fruits":[
+
+        {
+            "name":"grapes",
+            "color":"purple",
+            "taste":"alkaline",
+            "size":"small",
+            "price":55,
+            "curr":"INR",
+            "healthBenefit":"high in antioxidants, may prevent chronic diseases",
+            "season":"summer",
+            "image":"https://img.freepik.com/premium-vector/bunch-yellow-green-grapes-with-vine-leaves-isolated-transparent-background-cluster-grape-fresh-natural-food-dessert-realistic-3d-vector-illustration-agriculture-design_545793-38.jpg?w=2000"
+        },
+        {
+            "name":"apple",
+            "color":"redish",
+            "taste":"sweet",
+            "size":"medium",
+            "price":150,
+            "curr":"INR",
+            "healthBenefit":"Acts as antioxidants,and good for skin",
+            "season":"evergreen",
+            "image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHUAdQMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAQIEBQcGAwj/xABBEAABAgMFBAUICAYDAQAAAAABAgMABBEFEiExQQYTIlEUMkJhcQczNIGRobHwFSMkQ1JiweE1RIKi0fFTcpIl/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAMEAQIFBv/EACQRAAMAAgECBgMAAAAAAAAAAAABAgMREgQxBRMhIjJBFDNR/9oADAMBAAIRAxEAPwDcYIIIAIIISACCCE8YAK1hK6weOekJ39rlABljn3QlbuIxJ0iLaNpSdlsGYn5lphPNxVK+AzPqjln/ACk2Ey4dymcf5qbaAH9xBiOssR8mYbSOyrdy4q+6G1ucI4grXlHNWXt1YVoOpZZmFMPOYBEyi7U8q4pr646Tq4N4oPWPKNpubW5Znewy+rGKT2uUNOW67H44MALiTVo9ZfKEOW7r9R+P5742Ab5bfAlu8E4AiuMEN3kwgBLLd5A6pOohYAmwQQkAEHjB3wnjlABCf9vVATzjzfCy0tKHAhxSSELIvXToaawA8/mz0ig2v2iRs/IBYQHJ16oYbOXeT3CK6x521LDtv6H2kmjONzyiuQniAkFfaaNMuY9lcgIm1dkTVr2smaQhbzDTYbbCEkgmpqf09UVupy1OP29zNpyZvaT9o2tNKmp91briu0rIdwGg7oimXujGpjvmdlrQfXd6Ksf9uED2xd2dsTL7wKnihakY7pNbvrOZ8I5MYs+V/Eg4tlF5O9li86i15xsFttVZdtQ6yvxeA0/aNKqKHdYt9usIkC6ESwCAgUIGAp3Qlb4vNcLYxWDrHZw4ViniiVLQVFOD0ftfOfKGmlKH0XQ61+OcFQRvEYS46ydT84QhICd4fRfwa1/3ExkWs0PRwC12a0yghoRNKF6XWEtHqpJyHsggCwgghO/3QAd+kITTE5coPze6Oa232hNh2cEyxHTZiqWgewNVRiqUrbJMWKstqI7ssrUt2zrLwmphN/RtJqr2RTTe1E05LKdsuTS6odlZNfZGWJDjr2+mXVOuKNSSaxcs2s9LN0bOUV1n5HXvwxYpT7shbVbZ2paUsuQnmGmjeC0gpotChkoE41jwkvKDtO+1dlVJcLfAUtM1II0oIkTe2VoMGgxpziCryk2qnhph4xju97NpwNL9aLeXt/b58714dEa1W+i4T6jj7omt+UG1JEpTNFmaAPEbtxR9YjhbQ2xtGewWug8YqjNuOqJWokxuq19mldG6W2kj6D2e2ss3aK63KuGWmaYtLOKvA6xeBW+Bca4EI6yRrHzTJTbjDqXGlqQsGoUk0IMbpsTbx2isgPTCx0yUIQ8n/k1CvX8QYlmtnOzYHj9fo6G9fSZhPCynrN8/0/1DSoBHSj5g4br3eEBVvPtRBSpGAa5/NYYVUPTaVUcNz7vnCNisPEu++A60+W0KxSkE4CEhnREzB3xmA2V4lB07oIAtPGE79eUB/NnpCa49bSACva15RkG3U4ZzaOaJPCyQ0gcqZ/3VjXa417cYLb8wpdpzjhOK33Fe1RMVOrftSO54FjVZ6b+kebasc4nIQFpzihRM0MTmJ0DMxSij0ufDtCWlJApNOUcnONXFnxjq52dC0FIOEczOm8sxOqKqxaINIeIKQ4CJEyG5PVs3SCceUd75LbQ3O0iGVqNJltSQOa0i8n4EeuOAQI6HY19TG0tlqbxV0pAA7yafrEsP1Ob1UJwzfiorVv1i7NJwS1+IeGfOEvEK6UB9ryLPdllnljAoqJvPYTw82nmPhzhhKr19P8S1RpT4ZRYOABYlHiXZiY3bqsVovAXTyhIapNnqNZxxSZj7wAnA+qCALg4dbPSGnA0V1zlC9XBWJOUNOBunrnI8oANafec4wXaaWVL2rONqGKH1j+4xvJzufefijL/KNZZatZUwBwvpCifzAUP6H1xX6meUnY8GzeXna/pm+IMLeI5x7TCQlVAIjk0igoPWPPtDXVmmcQXcTEt04REUqisokmSveRDCiianXKEELmawoiVFO62KkRfbGsKmdqbKaR1ukoUP6eL9Io0iNB8kkgldpzNoOpJ3aOjsHQOqpU+KRT/1EsLbOf1dqcbZqyrwc3bxBtA4tq0A+HOGm9vN0k0tTVelPhl3QiqtuCTdN6dXi29ndHjnoYbiXOghVLQGJmO7PPPLCLJ58RTtmoUUTyFKmR5w44n1QQhnJFhRZm5bevt4OOXUm8eeJrBAFyeDhPFXXlCHhO7rUq7XKE83gjiBzPKE6o3acUHNfKAA/wDDqe3FTtLZn0vZbsogDft8bSzqoaeutItMKbqv1We8BhposbpZo0nJznGGtrRtFuKVLuj57tFstuqSpJSpJIUCMjyiqdXQxrHlD2Ucm95atmNVcQn65oZugdtPNXMa6Y55JMCnEcYqPHxej02Lq1lx8kNK6xHcOMKFHU4x4POUBxgpM1l9uwW6BlD2VFZ/WK8qJVEphRApXAxvxK3n7ZaSrDk3MMy0qguPOqCED8RMb7YVlN7NWVL2QmjynBxvDCi1YE+34CMt8nto2dYLvT3Eom7QcBQkVwYR3fmOp5Yc40mQt6TumWlQpbL+DjhxuVw0wyxiSEkczq8zyPS7FuUlk/RpVfW7iJj8PzTnrBdx+i60WMek/wB37Zwxu4hroTCt5JO4rmNEnxy0HthxSC39HE/YhiJnQ655Z4RKUhfpFMn9mVK75TXCXCaXqa5QQqJ6blkhiWlS8y3wocAPEOeEEAWdbtQ0byD1u6G4UKW8WT1lcoKg+Y6nbrDailWvR+385wAHK5/L6r+e+GmhAQ4aS3ZXz+cYCRdr/Ke//OcNUQBV70TsDWvx5wAKosXZk3GR5tQwr8iOP2p2GkrbdXNcEjOKyKE0Dp5kc8sY65RSAOmYy581T3ZY5Q1ZpT6Q633NP29UYa2bRdQ9yzGpnyW24hRDb8qVnqNqUUlXhFJOeTfawHdIkm96TgkPJJMb8oqBAnPTD5kjLuywzrnDSVX6L/iXYOlPhlWNeCJvycmtNnz7KeTPatx0trlWw4M0KcFRF0z5KLUdASqYbU8Ou0g9WNmJVfutfxTtnSnwypDeMqIs/C0Pvycu/PDOmUZ4oj82ta2Z3Z3kzblSky810hY86EjqfOMdfIWDJWekIs+r8qR9e4rG6NfdFompJ+iOFY9Ivfv/AFZQIKCkmzMJL+YrqNc8cuUZUpGjpsRKUNoMvLY2YfOO6pOv6aQtElvo6j/8oZPak55+OGUAuFBMthZX3wNak6548oOG5U/wjsp1r8etWMmBwetJtIRIspXLJwbURWqdNYIEi07o6AQJX7oG71dM8YIAnzP1TjaW+ELNCBrA7wTTbScG1ZpGRgggBp9ODH3RFbmmVYa0L88theLSQSEaCCCAGygD80808AttHVSchjHnI1mUvl/6wtjgKuznl7IWCAPOVUXrPmJh033m63FnMUFcIalRVZLk2TWZSaB3tDGn6wQQA10lFjonEkiZUaF3tHEiEnqy9my8ywd2+5S+4nNVQTj64IIAW1PsaJZUr9UXfOFGF7LP2w6fAlZ6Wl5cBtl0gOITgFY0xgggAfAatdqTbF2WWBeaHVOf+BAEg2wZIgdFAqGez1a5eOMEEAQZ6cmJabdZZeWhtCilKUmgAhIIIA//2Q=="
+        },
+        {
+            "name":"mango",
+            "color":"orange-yellow",
+            "taste":"alkaline",
+            "size":"medium",
+            "price": 120,
+            "curr":"INR",
+            "healthBenefit":"good source of fiber, cures acne and anti-aging benefits",
+            "season":"summer",
+            "image":"data:image/jpeg;base64,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"
+        },
+        {
+            "name":"sapota",
+            "color":"brown",
+            "taste":"neutral",
+            "size":"small",
+            "price": 80,
+            "curr":"INR",
+            "healthBenefit":"helps in digestion, controls blood pressure , great for knin and hair",
+            "season":"summer",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoltyOVBPgDc4l5O_P51MHlx0kW-vCPn--kDVBxdR2bw&s"
+
+        }
+    ],
+    "supplier":[
+        {
+            "name":"A s fruits trivendram",
+            "sincewhen":"2015",
+            "contactNo":"+91334434343",
+            "person":"Ashih Shah",
+            "noOfStores":5,
+            "speciality":["grapes","apple","banana"],
+            "city":"Thrivananthpuram"
+        },
+        {
+            "name":"Bittu Fruits shop",
+            "sincewhen":"2015",
+            "contactNo":"+91334434343",
+            "person":"Ashih Shah",
+            "noOfStores":5,
+            "speciality":["grapes","apple","banana"],
+            "city":"Thrivananthpuram"
+        },
+        {
+            "name":"KS fress Fruits",
+            "sincewhen":"2015",
+            "contactNo":"+91334434343",
+            "person":"Ashih Shah",
+            "noOfStores":5,
+            "speciality":["grapes","apple","banana"],
+            "city":"Thrivananthpuram"
+        },
+        {
+            "name":"Oranic India Fruits and Vegetables",
+            "sincewhen":"2015",
+            "contactNo":"+91334434343",
+            "person":"Ashih Shah",
+            "noOfStores":5,
+            "speciality":["grapes","apple","banana"],
+            "city":"Thrivananthpuram"
+        }
+    ],
+    "cities":[
+        {
+            "cityName":"Thruvananthpuram",
+            "state":"Kerela",
+            "population":784153,
+            "famousFor":"grapes"
+        },
+        {
+            "cityName":"Kurnol",
+            "state":"Andhra Pradesh",
+            "population": 460186,
+            "famousFor":"mango"
+        },
+        {
+            "cityName":"Nagpur",
+            "state":"Maharashtra",
+            "population": 2228081,
+            "famousFor":"orange"
+        },
+        {
+            "cityName":"Chennai",
+            "state":"Tamil naidu",
+            "population": 4328056,
+            "famousFor":"Sapota"
+        }
+    ]
+
+}

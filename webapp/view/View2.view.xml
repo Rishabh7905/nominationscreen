@@ -1,0 +1,23 @@
+<mvc:View controllerName="fiorilikeapp.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    >
+    <Page id="page" title="detail Page" navButtonPress="onBack" showNavButton="true">
+           <Panel id="_IDGenPanel1" >
+           <Image id="_IDGenImage1" src="{image}" width="20%" height="30%"></Image>
+           <Toolbar id="_IDGenToolbar2" >
+           <ToolbarSpacer id="_IDGenToolbarSpacer2" ></ToolbarSpacer>
+           <Text id="_IDGenText2" text="{taste}"></Text>
+           <Text id="_IDGenText1" text="{name}"></Text>
+           </Toolbar>
+           </Panel>
+
+           <footer>
+    <Toolbar id="_IDGenToolbar1" >
+        <ToolbarSpacer id="_IDGenToolbarSpacer1" >  </ToolbarSpacer>
+            <Button id="_IDGenButton1" text="Order" type="Emphasized"></Button>
+            <Button id="_IDGenButton2" text="Cancel" type="Reject"></Button>  
+    </Toolbar>
+   </footer>
+    </Page>
+</mvc:View>
