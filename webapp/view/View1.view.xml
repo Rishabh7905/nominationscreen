@@ -39,9 +39,7 @@
             
                 <attributes>
                     <ObjectAttribute id="_IDGenObjectAttribute2" text="{healthBenefit}" title="Benefit"></ObjectAttribute>
-                  <ObjectAttribute id="_IDGenObjectAttribute3" text="{season}" title="season"></ObjectAttribute>
-                  <!-- <ObjectAttribute id="_IDGenObjectAttribute4" text="{color}" title="color"></ObjectAttribute>
-                  <ObjectAttribute id="_IDGenObjectAttribute1" text="{size}" title="size"></ObjectAttribute> -->
+                  
                 </attributes>
                 <firstStatus>
                   <ObjectStatus id="_IDGenObjectStatus1" text="Available" state="Success"
