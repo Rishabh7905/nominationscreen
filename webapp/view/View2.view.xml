@@ -3,7 +3,7 @@
     xmlns="sap.m"
     	xmlns:core="sap.ui.core"
     >
-    <Page id="page" title="Detail Page" titleAlignment="Center" navButtonPress="onBack" showNavButton="true">
+    <Page id="page" title="Detail Page" titleAlignment="Center" >
            <!-- <Panel id="_IDGenPanel1" >
            <Image id="_IDGenImage1" src="{image}" width="20%" height="30%"></Image>
            <Toolbar id="_IDGenToolbar2" >
@@ -156,15 +156,15 @@
              <Input id="_IDGenInput2" placeholder="Remarks.." textAlign="Begin" ></Input>
         </InputListItem>
 
-            <!-- <Button id="_IDGenButton1"  class="sapUiLargeMarginBegin"  text="Create Nomination" type="Emphasized"></Button> -->
+            <Button id="_IDGenButton1"  class="sapUiLargeMarginBegin"  text="Confirm Nomination" type="Emphasized"></Button>
         
-        <footer >
+        <!-- <footer >
             <Toolbar id="_IDGenToolbar1"  >
-                 
+            <ToolbarSpacer id="_IDGenToolbarSpacer4" />
                      <Button id="_IDGenButton2" text="Create Nomination" type="Emphasized" ></Button>
 
         </Toolbar>
-   </footer>
+         </footer> -->
    
     </Page>
 </mvc:View>

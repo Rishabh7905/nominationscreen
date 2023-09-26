@@ -1,4 +1,4 @@
-<mvc:View controllerName="fiorilikeapp.controller.View1"
+<mvc:View xmlns:mdc="sap.ui.mdc" controllerName="fiorilikeapp.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}" titleAlignment="Center" >
@@ -52,5 +52,18 @@
     </List>
 
    </content>
+   <footer>
+   <mdc:ActionToolbar  enabled="true" >
+   
+
+   </mdc:ActionToolbar>
+   
+   </footer>
+ 
+    <!-- <Toolbar >
+    <ToolbarSpacer ></ToolbarSpacer>
+     <Button text="Create Re-Nomination" class=""></Button>
+    </Toolbar> -->
+   
     </Page>
 </mvc:View>
